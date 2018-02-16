@@ -1,0 +1,486 @@
+.Mask {
+  width: 1580px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #009efd, #2af598);
+}
+/*.Shape {
+  width: 25px;
+  height: 21px;
+  background-color: #ffffff;
+}*/
+
+.Simplyfill {
+  width: 399.8px;
+  height: 30px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #8a96a0;
+  content: "Simply fill out the form below and we’ll create your account:";
+  position: absolute;
+  top: 634px;
+  left: 604px;
+}
+.usernamebox, .passwordbox {
+	width: 385.5px;
+  height: 54px;
+  border-radius: 4.5px;
+  background-color: #ffffff;
+  border: solid 1.5px #d0d9de;
+  display: block;
+}
+.usernamebox {
+	position: absolute;
+	top: 641px;
+	left: 604px;
+	margin-bottom: 25px;
+	margin-top: 35px;
+
+	width: 386px;
+  height: 56px;
+  border-radius: 4.5px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border: solid 1.5px #d0d9de;
+ /* border-image-source: linear-gradient(98deg, #00ccff, #1dd9ba);*/
+  border-image-slice: 1;
+
+}
+.passwordbox {
+	position: absolute;
+	top: 746.5px;
+	left: 604px;
+
+	width: 385.5px;
+  height: 54px;
+  border-radius: 4.5px;
+  background-color: #ffffff;
+  border: solid 1.5px #d0d9de;
+  margin-bottom: 28px;
+}
+.Already-have-an-acco {
+  width: 199px;
+  height: 30px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #8a96a0;
+  top: 840px;
+  left: 595px;
+  position: absolute;
+}
+
+.Already-have-an-acco .text-style-1 {
+  font-weight: bold;
+  color: #894ec6;
+  text-decoration: none;
+}
+
+.button {
+  width: 113.9px;
+  height: 35.7px;
+  border-radius: 22.9px;
+  background-image: linear-gradient(107deg, #009efd, #25eca2);
+  top: 835px;
+  left: 875px;
+  position: absolute;
+  font-family: Lato;
+  font-size: 14.4px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rectanglesignup {
+  width: 51px;
+  height: 21px;
+  border-radius: 3px;
+  background-color: #38b5ed;
+  position: absolute;
+  top: 665px;
+  left: 625px;
+  z-index: 1;
+}
+
+.EMAIL {
+  width: 51px;
+  height: 15.8px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  content: "EMAIL";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* Ram css  */
+
+.center {
+  margin: auto;
+  width: 23%;
+  /* border: 3px solid green; */
+  padding: 33px;
+}
+.center-for-preffered {
+  margin: auto;
+  width: 23%;
+  padding:18px;
+}
+.currency-main{
+  margin-left: 50px;
+}
+.currency-sign-name{
+  position: relative;
+  top: 47px;
+  left: 64px;
+}
+.Rectangle-14 {
+  width: 1580px;
+  height: 1020px;
+  opacity: 0.31;
+  background-color: #000000;
+}
+.rectangle {
+  width: 183px;
+  height: 183px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: solid 1.5px #d0d9de;
+  display: inline-block;
+  margin-top: 51px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.cDesign_signup-1-email-popup {
+  width: 1580px;
+  height: 1020px;
+  background-color: #fafbfc;
+}
+.cDesign_signup-1 {
+  width: 1580px !important;
+  height: 1020px !important;
+  background-color: #fafbfc;
+}
+
+.Avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.Mask {
+  width: 1580px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #009efd, #2af598);
+}
+
+.OK {
+  width: 119.9px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14.4px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+.base {
+  width: 85px;
+  height: 960px;
+  border-radius: 4px;
+  background-color: #203663;
+  border: solid 1px #ebedf8;
+}
+.Shape-Copy {
+  width: 21px;
+  height: 21px;
+  opacity: 0.4;
+  background-color: #ffffff;
+}
+.sidemenu{
+  color: blue;
+  float: left;
+}
+.Signup {
+  width: 1497px;
+  height: 36px;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #1a173b;
+  margin-left: 17px;
+}
+.body {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+::-moz-selection {
+    color: #FFF;
+    background-color: #EE6723;
+    background-color: var(--peach);
+    text-shadow: none;
+}
+
+::selection {
+    -webkit-text-fill-color: #FFF;
+    color: #FFF;
+    background-color: #EE6723;
+    background-color: var(--peach);
+    text-shadow: none;
+}
+
+.person_override{
+  width: auto;
+  height: 36px;
+}
+.person {
+  width: 28.3px !important;
+  height: 35.4px;
+  background-image: linear-gradient(141deg, #009efd, #26eca2);
+}
+.Select-your-preffere {
+  width: 269px;
+  height: 30px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #8a96a0;
+}
+
+.Jordan-J {
+  width: 65px;
+  height: 19px;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Administrator {
+  width: 85px;
+  height: 17px;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Online-Sign {
+  width: 14px;
+  height: 14px;
+  border: solid 3px #ffffff;
+}
+.bitcoin {
+  width: 40px;
+  height: 56px;
+  font-family: FontAwesome;
+  font-size: 56px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00caff;
+  position: absolute;
+}
+.gbp {
+  width: 32px;
+  height: 56px;
+  font-family: FontAwesome;
+  font-size: 56px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d0d9de;
+  position: absolute;
+}
+.dollar {
+  width: 31px;
+  height: 54px;
+  font-family: FontAwesome;
+  font-size: 54px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d0d9de;
+  position: absolute;
+}
+.ZEC {
+  width: 48.4px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.XRP {
+  width: 51.8px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.ETH {
+  width: 51.8px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.BTC {
+  width: 51.8px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.INR {
+  width: 51.8px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.DASH {
+  width: 51.8px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.BCH {
+  width: 51.8px;
+  height: 19.5px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1b2437;
+  position: absolute;
+  margin-top: 74px;
+}
+.Oval {
+  width: 34.5px;
+  height: 34.5px;
+  background-image: linear-gradient(to bottom, #b4ec51, #429321);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+  position: absolute;
+  top: 286px;
+  left: 95px;
+}
+.Path-1 {
+  width: 15px;
+  height: 11.7px;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
+

@@ -1,0 +1,104 @@
+<html lang="en" itemscope itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- Standard -->
+<title>signup page</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script>
+$("input").focus(function(){
+    $("input").css("border-image-source", "linear-gradient(98deg, #00ccff, #1dd9ba)");
+});
+</script>
+<script src="signUp.js"></script>
+
+</head>
+<body class="loading" >
+<div id="screenContainer" class="" style="width: 1580px; height: 1020px; border: 1px solid #ebedf8;">
+<div class="Mask">
+	 <img src="img/icon_company.png" id="logo" style="width: 145px; height: 67px; position: absolute; left: 13px; top: 10px;" >
+     <img src="img/mask.svg"
+     class="Mask">
+</div>
+<div class="sidebar" style="width: 85px; height: 1020px; border-right: 4px; display: inline-block; float: left; background-color: #203663;">
+	<i class="fa fa-home shape" id="icon1" style=" width: 25px; height: 21px; font-size: 25px; color: #ffffff; position: absolute; left: 29px; top: 135px; cursor: pointer;" onclick="homeIconClick(this); "> </i>
+	 <img src="img/icon_bar.png" id="icon2" style=" width: 21px; height: 21px; position: absolute; left: 31px; top: 220px; opacity: 0.4; cursor: pointer;" onclick="dashboardIconClick(this); ">
+	 <img src="img/icon_user.png" id="icon3" style=" width: 21px; height: 23px; position: absolute; top: 302px; left: 31px; opacity: 0.4; cursor:pointer;" onclick="personIconClick(this);	">
+</div> 
+
+<div class="maindiv" style="background-color: #fafbfc; width: auto; height: 1020px; border: 1px solid #ebedf8; ">
+		<div class="center">
+        <i class="fas fa-street-view person"></i>
+        <label class="Signup">Signup</label>
+      	</div>
+       	<div class="center-for-preffered"><label class="Select-your-preffere">Select your preffered currency</label></div>
+     		 <div class="currency-main">
+      			<div class="rectangle">
+          			<div class="Oval"><i class="fas fa-check-circle Path-1"></i></div>
+          				<div class="currency-sign-name">
+            			<i class="fab fa-btc bitcoin"></i>
+            			<label class="ZEC">ZEC</label>
+          				</div>
+        		</div>
+        	<div class="rectangle">
+         	 <div class="currency-sign-name">
+           			 <i class="fas fa-pound-sign gbp"></i>
+            	<label class="XRP">XRP</label>
+          	</div>
+        	</div>
+			<div class="rectangle">
+  				<div class="currency-sign-name">
+    			<i class="fas fa-dollar-sign dollar"></i>
+    			<label class="ETH">ETH</label>
+  				</div>
+			</div>
+			<div class="rectangle">
+  				<div class="currency-sign-name">
+    			<i class="fas fa-pound-sign gbp"></i>
+    			<label class="BTC">BTC</label>
+  				</div>
+			</div>
+			<div class="rectangle">
+  				<div class="currency-sign-name">
+   				 <i class="fas fa-dollar-sign dollar"></i>
+   				 <label class="INR">INR</label>
+  				</div>
+			</div>
+			<div class="rectangle">
+  				<div class="currency-sign-name">
+    			<i class="fas fa-pound-sign gbp"></i>
+    			<label class="DASH">DASH</label>
+  				</div>
+			</div>
+       		 <div class="rectangle">
+          		<div class="currency-sign-name">
+           		 <i class="fas fa-dollar-sign dollar"></i>
+            	<label class="BCH">BCH</label>
+          		</div>
+        	</div>
+      	</div> 
+
+      	<div class="textdiv">
+          <span class="Simplyfill">Simply fill out the form below and we’ll create your account:
+          </span>
+        </div>
+        <div class="signupdiv">
+          <div class="rectanglesignup"><span class="EMAIL">EMAIL</span></div>
+            <input type="text" class="usernamebox" id="username" placeholder="Username" />
+            <input type="password" class="passwordbox" id="password" placeholder="Password" />
+            <span class="Already-have-an-acco">Already have an account? <a class="text-style-1" href="#"> Login </a></span><input type="button" class="button" value="Sign up"/>
+       	 </div>
+
+<!-- Sumit -->
+			
+</div>
+</body>
+</html>
